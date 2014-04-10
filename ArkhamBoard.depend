@@ -1,0 +1,131 @@
+# depslib dependency file v1.0
+1397127618 source:/home/malice/Programming/Games/ArkhamBoard/Font.cpp
+	"Font.hpp"
+	"Window.hpp"
+
+1397127618 /home/malice/Programming/Games/ArkhamBoard/Font.hpp
+	<SDL_ttf.h>
+	<SDL.h>
+	<SDL_image.h>
+	<exception>
+	<string>
+	"Logger.hpp"
+
+1397129682 /home/malice/Programming/Games/ArkhamBoard/Logger.hpp
+	<fstream>
+	<string>
+
+1397127618 /home/malice/Programming/Games/ArkhamBoard/Window.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<exception>
+	<string>
+	"Logger.hpp"
+
+1397130111 source:/home/malice/Programming/Games/ArkhamBoard/gameEngine.cpp
+	"gameEngine.hpp"
+	"Texture.hpp"
+	"Logger.hpp"
+	"Printable.hpp"
+	<cstdio>
+	"TestState.hpp"
+
+1397127618 /home/malice/Programming/Games/ArkhamBoard/gameEngine.hpp
+	"Initializer.hpp"
+	"GameState.hpp"
+	"Window.hpp"
+	<memory>
+	<vector>
+
+1397127618 /home/malice/Programming/Games/ArkhamBoard/Initializer.hpp
+	<exception>
+	<string>
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"Logger.hpp"
+
+1397127618 /home/malice/Programming/Games/ArkhamBoard/GameState.hpp
+	<SDL.h>
+
+1397127618 /home/malice/Programming/Games/ArkhamBoard/Texture.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<exception>
+	<string>
+	"Logger.hpp"
+
+1397127618 /home/malice/Programming/Games/ArkhamBoard/Printable.hpp
+	"SDL.h"
+
+1397164872 /home/malice/Programming/Games/ArkhamBoard/TestState.hpp
+	"GameState.hpp"
+	<memory>
+	"TextTexture.hpp"
+	"Texture.hpp"
+	"TextureManager.hpp"
+	<vector>
+
+1397127618 /home/malice/Programming/Games/ArkhamBoard/TextureManager.hpp
+	<map>
+	<memory>
+	"Window.hpp"
+	"Texture.hpp"
+
+1397127618 source:/home/malice/Programming/Games/ArkhamBoard/GameState.cpp
+	"GameState.hpp"
+	"gameEngine.hpp"
+
+1397127618 source:/home/malice/Programming/Games/ArkhamBoard/Initializer.cpp
+	"Initializer.hpp"
+	"Logger.hpp"
+
+1397127618 source:/home/malice/Programming/Games/ArkhamBoard/Printable.cpp
+	"Printable.hpp"
+
+1397164742 source:/home/malice/Programming/Games/ArkhamBoard/main.cpp
+	"gameEngine.hpp"
+
+1397166894 source:/home/malice/Programming/Games/ArkhamBoard/TestState.cpp
+	"TestState.hpp"
+	"gameEngine.hpp"
+	"TextTexture.hpp"
+	"SDL_ttf.h"
+
+1397130310 source:/home/malice/Programming/Games/ArkhamBoard/Texture.cpp
+	"Texture.hpp"
+	"Window.hpp"
+	"Logger.hpp"
+
+1397127618 source:/home/malice/Programming/Games/ArkhamBoard/Timer.cpp
+	"Timer.hpp"
+
+1397127618 /home/malice/Programming/Games/ArkhamBoard/Timer.hpp
+	"SDL.h"
+
+1397127618 source:/home/malice/Programming/Games/ArkhamBoard/Window.cpp
+	"Window.hpp"
+	<cstdio>
+
+1397129682 source:/home/malice/Programming/Games/ArkhamBoard/Logger.cpp
+	"Logger.hpp"
+
+1397164827 /home/malice/Programming/Games/ArkhamBoard/TextTexture.hpp
+	<SDL_ttf.h>
+	<SDL.h>
+	<SDL_image.h>
+	<exception>
+	<string>
+	"Logger.hpp"
+
+1397164758 source:/home/malice/Programming/Games/ArkhamBoard/TextTexture.cpp
+	"TextTexture.hpp"
+	"Window.hpp"
+
+1397166863 source:/home/malice/Programming/Games/ArkhamBoard/Button.cpp
+	"Button.hpp"
+
+1397166598 /home/malice/Programming/Games/ArkhamBoard/Button.hpp
+	"Printable.hpp"
+	<memory>
+
