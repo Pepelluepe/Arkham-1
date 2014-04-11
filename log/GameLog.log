@@ -1,0 +1,6 @@
+Initializer constructor called
+Creating SDL_Surface
+Hello, world! I do work!
+media/go3v2.ttf
+mfont not null
+Initializer destructor called

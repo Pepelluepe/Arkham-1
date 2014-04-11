@@ -6,7 +6,7 @@
 
 TestState::TestState(Window& win) : m_win(&win)
 {
-    SDL_Color color { 0, 0, 255, 125};
+    SDL_Color color = { 0, 132, 255};
     text.reset(new TextTexture("media/go3v2.ttf", "Hello, world! I do work!", color, 35, *m_win) );
 }
 

@@ -40,8 +40,8 @@
 			<Add library="/usr/local/lib/libSDL2_test.a" />
 			<Add library="/usr/local/lib/libSDL2_ttf.a" />
 		</Linker>
-		<Unit filename="Font.cpp" />
-		<Unit filename="Font.hpp" />
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.hpp" />
 		<Unit filename="GameState.cpp" />
 		<Unit filename="GameState.hpp" />
 		<Unit filename="Initializer.cpp" />
@@ -52,6 +52,8 @@
 		<Unit filename="Printable.hpp" />
 		<Unit filename="TestState.cpp" />
 		<Unit filename="TestState.hpp" />
+		<Unit filename="TextTexture.cpp" />
+		<Unit filename="TextTexture.hpp" />
 		<Unit filename="Texture.cpp" />
 		<Unit filename="Texture.hpp" />
 		<Unit filename="TextureManager.hpp" />
