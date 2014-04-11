@@ -16,7 +16,7 @@ class Player;
 class TestState : public GameState
 {
     Window* m_win;
-    std::unique_ptr<TextTexture> text;
+    std::unique_ptr<Texture> text;
 
 public:
     TestState() = delete;

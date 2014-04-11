@@ -48,7 +48,7 @@
 1397127618 /home/malice/Programming/Games/ArkhamBoard/GameState.hpp
 	<SDL.h>
 
-1397168626 /home/malice/Programming/Games/ArkhamBoard/Texture.hpp
+1397210618 /home/malice/Programming/Games/ArkhamBoard/Texture.hpp
 	<SDL.h>
 	<SDL_image.h>
 	<exception>
@@ -58,7 +58,7 @@
 1397127618 /home/malice/Programming/Games/ArkhamBoard/Printable.hpp
 	"SDL.h"
 
-1397164872 /home/malice/Programming/Games/ArkhamBoard/TestState.hpp
+1397210672 /home/malice/Programming/Games/ArkhamBoard/TestState.hpp
 	"GameState.hpp"
 	<memory>
 	"TextTexture.hpp"
@@ -86,7 +86,7 @@
 1397164742 source:/home/malice/Programming/Games/ArkhamBoard/main.cpp
 	"gameEngine.hpp"
 
-1397208436 source:/home/malice/Programming/Games/ArkhamBoard/TestState.cpp
+1397210011 source:/home/malice/Programming/Games/ArkhamBoard/TestState.cpp
 	"TestState.hpp"
 	"gameEngine.hpp"
 	"TextTexture.hpp"
@@ -110,15 +110,14 @@
 1397129682 source:/home/malice/Programming/Games/ArkhamBoard/Logger.cpp
 	"Logger.hpp"
 
-1397168626 /home/malice/Programming/Games/ArkhamBoard/TextTexture.hpp
+1397210544 /home/malice/Programming/Games/ArkhamBoard/TextTexture.hpp
 	<SDL_ttf.h>
-	<SDL.h>
-	<SDL_image.h>
+	"Texture.hpp"
 	<exception>
 	<string>
 	"Logger.hpp"
 
-1397208170 source:/home/malice/Programming/Games/ArkhamBoard/TextTexture.cpp
+1397210645 source:/home/malice/Programming/Games/ArkhamBoard/TextTexture.cpp
 	"TextTexture.hpp"
 	"Window.hpp"
 	"Logger.hpp"

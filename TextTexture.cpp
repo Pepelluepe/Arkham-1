@@ -11,8 +11,10 @@ TextTexture::TextTexture()
 }
 
 TextTexture::TextTexture(const std::string& fontFile, const std::string& text, SDL_Color color, int fontSize, Window& win) :
-            m_win(&win), m_text(text), m_color(color), m_fontSize(fontSize), m_texture(nullptr), m_font(nullptr)
+            m_text(text), m_color(color), m_fontSize(fontSize), m_font(nullptr)
 {
+    m_win = &win;
+    m_texture = nullptr;
     RenderText(fontFile);
 }
 

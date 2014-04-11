@@ -38,12 +38,14 @@ public:
     Texture(const char*, Window&);
     Texture(const Texture& );
 
-    ~Texture();
+    virtual ~Texture();
     //Load texture from file.
     void Init(const char*, Window& );
     //Draw texture on screen using Window's renderer, at coordinates of x and y
-    void Draw(Window& win, int x = 0, int y = 0);
-    void Draw(int x = 0, int y = 0);
+    virtual void Draw(Window& win, int x = 0, int y = 0);
+    virtual void Draw(int x = 0, int y = 0);
+
+    virtual void SetText() {} // For TextTexture
 
     //Converter. It's going to be used in Draw(), it is natural that Texture should be able to take form of ordinary SDL_Texture*.
     operator SDL_Texture*() { return m_texture; }
@@ -53,7 +55,7 @@ public:
     inline int GetH() { return m_rect.h; }
     inline bool IsNull() { return (m_texture == nullptr); }
 
-private:
+protected:
     //Load texture from file.
     void loadTexture( const char* path, SDL_Renderer* );
 

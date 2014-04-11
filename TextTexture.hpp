@@ -2,15 +2,14 @@
 #define TEXTTEXTURE_HPP
 
 #include <SDL_ttf.h>
-#include <SDL.h>
-#include <SDL_image.h>
+#include "Texture.hpp"
 #include <exception>
 #include <string>
 #include "Logger.hpp"
 
 class Window;
 
-class TextTexture
+class TextTexture : public Texture
 {
     class TextTextureException: public std::exception
     {
@@ -47,15 +46,12 @@ public:
 
 private:
 
-    SDL_Texture* m_texture;
     TTF_Font* m_font; //Could use FontManager...
-    Window* m_win;
-    SDL_Rect m_rect;
     SDL_Color m_color;
     int m_fontSize;
     std::string m_text;
 
-    void RenderText(const std::string& fontFile = "./go3v2.ttf");
+    void RenderText(const std::string& fontFile = "media/go3v2.ttf");
 };
 
 #endif //TEXTTEXTURE_HPP
